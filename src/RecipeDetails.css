@@ -1,0 +1,27 @@
+#RD{
+    /* background-color: peru; */
+    background-color: rgb(248, 207, 157);
+    width: 100vw;
+    text-align: center;
+}
+#RN{
+     padding: 20px;
+     font-size: xx-large;
+     background-color: rgb(221, 183, 196);
+}
+#img2{
+    width: 30vw;
+    margin-bottom: 20px;
+}
+#link{
+    width: 100vw;
+    left: 20px;
+}
+#Home{
+    font-size: large;
+    margin-left: 900px;
+}
+.active_class{
+    color: pink;
+    border-radius: 1px solid red;
+}

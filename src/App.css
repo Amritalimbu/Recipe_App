@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  background-color: peru;
+  /* height: 100vh; */
+  width: 100vw;
+  /* overflow:scroll; */
+}
+#h2{
+  margin-bottom: 10px;
+  padding-top: 35px;
+}
+#input{
+  background-color: rgb(228, 225, 225);
+  margin-top: 10px;
+  /* padding: px 15px; */
+  width: 30%;
+  border-radius: 10px 0px 0px 10px;
+  border: none;
+  outline: none;
+}
+#btn{
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 0px 10px 10px 0px; 
+  border: none;
+  background-color: rgb(142, 214, 142);
+}
+#btn:hover{
+  background-color: cornflowerblue;
+}
+.list{
+  margin-top: 30px;
+    grid-template-columns: 330px 330px 330px ;
+    gap: 20px 20px;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+#linkabout{
+  text-align: right;
+}
+.active_class{
+  color: pink;
+  border-radius: 1px solid red;
+}
+
+
+
+@media(max-width:425px){
+  .App{
+    background-color: aqua;
+  }
+  .list{
+    grid-template-columns: 330px;
+    align-items: center;
+    justify-content: center;
+    /* width: 100 a%; */
+  }
+  #input{
+    background-color: rgb(228, 225, 225);
+    margin-top: 10px;
+    padding: 8px 35px;
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    outline: none;
+  }
+}
+@media (min-width:426px) and (max-width:768px){
+  .App{
+    background-color: rgb(153, 115, 121);
+    /* align-items: center;
+    justify-content: center; */
+  }
+  .list{
+    grid-template-columns: 330px 330px ;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-left: 55px;
+  }
+  #input{
+    background-color: rgb(228, 225, 225);
+    margin-top: 10px;
+    padding: 8px 35px;
+    width: 40%;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    outline: none;
+  }
+  #btn{
+    margin-top: 10px;
+    padding: 8px 20px;
+    border-radius: 0px 10px 10px 0px; 
+    border: none;
+    background-color: rgb(142, 214, 142);
+  }
+}
+
+@media(min-width:769px) and (max-width:1024px) {
+  .App{background-color: rgb(207, 198, 189);
+    /* width: 100%; */
+  }
+  .list{
+    margin-top: 30px;
+    grid-template-columns: 330px 330px 330px;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-left: 10px;  
+  }
+  #input{
+    background-color: rgb(228, 225, 225);
+    padding: 15px 35px;
+    width: 50%;
+    font-size: x-large;
+  }
+  #btn{
+    margin-top: 18px;
+    padding: 15px 35px;
+    border-radius: 0px 10px 10px 0px; 
+    font-size: x-large;
+  }
+}
+@media (min-width:1025px) {
+  /* .App{
+    background-color: peru;
+  } */
+  .list{
+    /* grid-template-columns: 330px 330px 330px 330px; */
+    grid-template-columns: auto auto auto auto;
+    /* grid-column-gap: 10px; */
+    gap: 20px 20px;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+  }
+  #input{
+    background-color: rgb(228, 225, 225);
+    padding: 10px 35px;
+    width: 30%;
+    font-size: x-large;
+  }
+  #btn{
+    margin-top: 18px;
+    padding: 10px 35px;
+    border-radius: 0px 10px 10px 0px; 
+    font-size: x-large;
+  }
+}
